@@ -2,6 +2,10 @@
 
 本目录基于 Xilinx 官方 `dma_ip_drivers` 仓库的 `2020.2` 分支（提交 `785995783c78b2cbec6458141c4395e204c5bd9b`），保留原版驱动结构并加入 Linux 6.8 兼容修复。除官方测试外只增加一个 4GB DDR 测试脚本。
 
+官方驱动仓库：
+
+<https://github.com/Xilinx/dma_ip_drivers/tree/2020.2>
+
 ## 驱动修复
 
 相对官方 2020.2 分支的修复内容位于：
