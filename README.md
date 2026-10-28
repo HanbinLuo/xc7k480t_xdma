@@ -1,11 +1,5 @@
 # xdma_480t：无 ADD、4GB DDR Vivado 基线
 
-这是一个不包含 `axi_vector_add_0` 的 Kintex-7 XDMA 基线工程，参考目录为：
-
-```text
-C:/fpga_learning/vivado_project/480t/xdma_archive_test/xdma
-```
-
 工程包含 XDMA、AXI Interconnect、双通道 MIG DDR 和原始 `ila_0`。Block Design 的 AXI Interconnect 为 `NUM_SI=1`、`NUM_MI=4`，没有第二个 AXI master。
 
 ## DDR 地址
