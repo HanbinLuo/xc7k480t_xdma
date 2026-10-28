@@ -58,10 +58,16 @@ sudo ./dma_memory_mapped_test.sh xdma0 1024 1 1 1
 
 ## 4GB DDR 测试（唯一新增脚本）
 
-`4gb_ddr_test.py` 是额外加入的唯一 DDR 测试脚本，会对 DDR C0/C1 执行单通道、双通道和并发读写，覆盖 1KiB/4KiB 数据块：
+`4gb_ddr_test.sh` 是额外加入的唯一 DDR 测试脚本。它使用 Python shebang 实现，但可以像普通 Shell 脚本一样直接运行，对 DDR C0/C1 执行单通道、双通道和并发读写，覆盖 1KiB/4KiB 数据块：
 
 ```bash
-sudo python3 4gb_ddr_test.py
+sudo ./4gb_ddr_test.sh
+```
+
+也可以显式调用 Python：
+
+```bash
+sudo python3 4gb_ddr_test.sh
 ```
 
 测试覆盖：

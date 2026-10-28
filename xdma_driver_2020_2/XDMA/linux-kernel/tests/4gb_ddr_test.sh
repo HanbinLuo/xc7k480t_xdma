@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 """Run real XDMA reads/writes with unique data; reserve DDR 0x01000000..0x01010000."""
 import concurrent.futures as cf
 import json
