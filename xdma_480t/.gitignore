@@ -1,0 +1,10 @@
+.Xil/
+xdma.cache/
+xdma.gen/
+xdma.hw/
+xdma.ip_user_files/
+xdma.runs/
+xdma.sim/
+*.jou
+*.log
+*.backup.*
