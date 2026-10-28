@@ -24,7 +24,7 @@ XDMA/linux-kernel/xdma/xdma_cdev.c
 在目标 Linux 主机执行：
 
 ```bash
-cd xdma_driver_2020_2/XDMA/linux-kernel/xdma
+cd XDMA/linux-kernel/xdma
 make clean
 make -C /lib/modules/$(uname -r)/build M=$PWD modules
 ```
@@ -49,7 +49,7 @@ XDMA/linux-kernel/xdma/xdma.ko
 ## 驱动加载和基础测试
 
 ```bash
-cd xdma_driver_2020_2/XDMA/linux-kernel/tests
+cd XDMA/linux-kernel/tests
 sudo ./load_driver.sh
 sudo ./run_test.sh
 ```
